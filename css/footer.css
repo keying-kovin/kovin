@@ -1,0 +1,51 @@
+.footer-box {
+    width: 100%;
+}
+
+.footer-box .social-media {
+    width: 95%;
+    margin: 40px auto 20px;
+}
+
+.footer-box .social-media .logos {
+    width: 25%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+}
+
+.footer-box .social-media .logos li {
+    width: 50px;
+    margin: 0 20px;
+    place-content: center;
+}
+
+.footer-box .social-media .logos li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-box .social-media .logos li img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.footer-box .designer {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.footer-box .designer .content {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-box .designer .content p {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    font: 500 14px 'yahei';
+    color: rgba(0, 0, 0, 0.4);
+}

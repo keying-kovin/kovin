@@ -1,0 +1,87 @@
+.liveContain h1 {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    height: 35px;
+    line-height: 35px;
+    font: 800 26px 'yahei';
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.liveContain .lives {
+    position: relative;
+    left: 2.5%;
+    bottom: 0;
+    width: 95%;
+    height: 260px;
+}
+
+.liveContain .lives .content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.liveContain .lives .content .videos {
+    margin: 10px auto;
+    list-style: none;
+    display: flex;
+    width: calc(360 * 9px);
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.liveContain .lives .content .videos li {
+   width: 360px;
+   height: 100%;
+   margin: 0 5px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: .3s;
+}
+
+/* img暂时替代 */
+.liveContain .lives .content .videos li img {
+    width: 100%;
+    height: 85%;
+    border-radius: 5px;
+}
+
+.liveContain .lives .content .videos li p {
+    color: grab(0, 0, 0, 0.6);
+    font: 600 18px 'yahei';
+}
+
+.liveContain .lives .content .videos li:hover {
+    width: 370px;
+    height: 110%;
+}
+
+.liveContain .prev {
+    position: absolute;
+    left: -42.75px;
+    top: 100px;
+}
+
+.liveContain .next {
+    position: absolute;
+    top: 100px;
+    right: -46.25px;
+}
+
+.liveContain .prev,
+.liveContain .next {
+    width: 45px;
+    height: 60px;
+    font-size: 30px;
+    padding: 10px;
+    place-content: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: gray;
+}
+
+.liveContain .prev:hover,
+.liveContain .next:hover {
+    color: rgba(255, 255, 255, 0.9);
+} 

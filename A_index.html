@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aimer</title>
+    <link rel="shortcut icon" href="./image/shortcut/shortCut.jpg">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/live.css">
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="css/album.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            user-select: none;
+        }
+        
+        .show {
+            width: min(1800px, 95%);
+            margin: 40px auto 30px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 25px;
+            overflow: hidden;
+        }
+
+        .mainContain {
+            width: min(1800px, 95%);
+            height: 950px;
+            margin: 20px auto 0;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            padding: 5px;
+            overflow: hidden;
+        }
+
+        .liveContain {
+            max-width: 100%;
+            height: 300px;
+            align-items: center;
+        }
+
+        .clearfix::before,
+        .clearfix::after{
+            content:'';
+            display: block;
+        }
+        .clearfix::after{
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="nav">
+        <div class="nav-box">
+            <div class="logo">
+                <img src="image/logo/logo-aimer-white.png" alt="">
+            </div>
+            <ul class="nav">
+                <li><a href="A_index.html">Home</a></li>
+                <li><a href="page_news.html" target="_blank">News</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">FC</a></li>
+                <!-- <div class="btm-box checked"></div> -->
+            </ul>
+        </div>
+        <div class="nav-scroll">
+            <ul class="nav">
+                <li><a href="A_index.html">Home</a></li>
+                <li><a href="page_news.html">News</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">FC</a></li>
+                <!-- <div class="btm-box checked"></div>            -->
+            </ul>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="show">
+            <div class="banner">
+                <div class="wrapper">
+                    <ul class="image">
+                        <li><img src="./image/banner/800-1.jpg"></li>
+                        <li><img src="./image/banner/ep-haruka-1.jpg"></li>
+                        <li><img src="./image/banner/Haruka-1.jpg"></li>
+                        <li><img src="./image/banner/openadoor-2.jpg"></li>
+                        <li><img src="./image/banner/sign-1.jpg"></li>
+                        <li><img src="./image/banner/siroiro-2.jpg"></li>
+                        <li><img src="./image/banner/tour-2024-25-1.jpg"></li>
+                        <li><img src="./image/banner/banner8.jpg"></li>
+                        <li><img src="./image/banner/800-1.jpg"></li>
+                    </ul>
+                    <ul class="radius">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="controls">
+                        <div class="prev">&#10094;</div>
+                        <div class="next">&#10095;</div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="top"><i>guess you want</i></div>
+                    <ul class="list">
+                        <li><a href="#" title="######">######</a><span>&gt;</span></li>
+                        <li><a href="#" title="######">######</a><span>&gt;</span></li>
+                        <li><a href="#" title="######">######</a><span>&gt;</span></li>
+                        <li><a href="#" title="######">######</a><span>&gt;</span></li>
+                        <li><a href="#" title="######">######</a><span>&gt;</span></li>
+                    </ul>
+                </div>
+                <div class="someNews">
+                    <div class="news1">
+                        <h1>News1</h1>
+                    </div>
+                    <div class="news2">
+                        <h1>News2</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="live">
+        <div class="liveContain">
+            <h1>Lives: </h1>
+            <div class="lives">
+                <div class="prev">&#10094;</div>
+                <div class="next">&#10095;</div>
+                <div class="content">
+                    <ul class="videos">
+                        <!-- 暂时用img替代 -->
+                        <li>
+                            <img src="videos/lives/2024shanghai.jpg" alt="">
+                            <div class="title">
+                                <p>2024 shanghai 3nuits tour</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="videos/lives/2024shanghai.jpg" alt="">
+                            <div class="title">
+                                <p>2024 shanghai 3nuits tour</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="videos/lives/2024shanghai.jpg" alt="">
+                            <div class="title">
+                                <p>2024 shanghai 3nuits tour</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="videos/lives/2024shanghai.jpg" alt="">
+                            <div class="title">
+                                <p>2024 shanghai 3nuits tour</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="videos/lives/2024shanghai.jpg" alt="">
+                            <div class="title">
+                                <p>2024 shanghai 3nuits tour</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="videos/lives/2024shanghai.jpg" alt="">
+                            <div class="title">
+                                <p>2024 shanghai 3nuits tour</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="videos/lives/2024shanghai.jpg" alt="">
+                            <div class="title">
+                                <p>2024 shanghai 3nuits tour</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="videos/lives/2024shanghai.jpg" alt="">
+                            <div class="title">
+                                <p>2024 shanghai 3nuits tour</p>
+                            </div>
+                        </li>     
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main">
+        <div class="mainContain">
+            <div class="music">
+                <h1>Music:</h1>
+                <div class="music-box">
+                    <a href="#" class="more"><i>---more></i></a>
+                    <div class="clearfix"></div>
+                    <div class="line"></div>
+                    <div class="message">
+                        <div class="name">歌名/歌手名</div>
+                        <div class="album">专辑</div>
+                        <div class="time">时长</div>
+                    </div>
+                    <div class="song-1">
+                        <div class="player">
+                            <img src="image/shortcut/natukusa.jpg" alt="">
+                            <!-- 想不到怎么做 想找图片找不到 -->
+                            <div class="paly">
+                                
+                            </div>
+                        </div>
+                        <span class="song-name">夏草に君を思う（望着夏草想念你）</span>
+                        <a href="#"><span class="singer">Aimer（エメ）</span></a>
+                        <a href="#" class="album">蝶々結び (蝴蝶结)</a>
+                        <span class="time">04:23</span>
+                    </div>
+                    <div class="song-1">
+                        <img src="image/shortcut/natukusa.jpg" alt="">
+                        <span class="song-name">夏草に君を思う（望着夏草想念你）</span>
+                        <a href="#"><span class="singer">Aimer（エメ）</span></a>
+                        <a href="#" class="album">蝶々結び (蝴蝶结)</a>
+                        <span class="time">04:23</span>
+                    </div>
+                    <div class="song-1">
+                        <img src="image/shortcut/natukusa.jpg" alt="">
+                        <span class="song-name">夏草に君を思う（望着夏草想念你）</span>
+                        <a href="#"><span class="singer">Aimer（エメ）</span></a>
+                        <a href="#" class="album">蝶々結び (蝴蝶结)</a>
+                        <span class="time">04:23</span>
+                    </div>
+                    <div class="song-1">
+                        <img src="image/shortcut/natukusa.jpg" alt="">
+                        <span class="song-name">夏草に君を思う（望着夏草想念你）</span>
+                        <a href="#"><span class="singer">Aimer（エメ）</span></a>
+                        <a href="#" class="album">蝶々結び (蝴蝶结)</a>
+                        <span class="time">04:23</span>
+                    </div>
+                </div>
+            </div>
+            <div class="album">
+                <h1>Album:</h1>
+                <div class="album-box">
+                    <a href="#" class="more"><i>---more></i></a>
+                    <div class="clearfix"></div>
+                    <div class="line"></div>
+                    <ul class="albums">
+                        <li>
+                            <img src="./image/album/daydream.jpg" alt="">
+                            <div class="name">
+                                <p>daydream（デイドリーム）</p>
+                                <p>Aimer（エメ）</p>
+                                <p>2016-09-21</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./image/album/daydream.jpg" alt="">
+                            <div class="name">
+                                <p>daydream（デイドリーム）</p>
+                                <p>Aimer（エメ）</p>
+                                <p>2016-09-21</p>                            </div>
+                        </li>
+                        <li>
+                            <img src="./image/album/daydream.jpg" alt="">
+                            <div class="name">
+                                <p>daydream（デイドリーム）</p>
+                                <p>Aimer（エメ）</p>
+                                <p>2016-09-21</p>                            </div>
+                        </li>
+                        <li>
+                            <img src="./image/album/daydream.jpg" alt="">
+                            <div class="name">
+                                <p>daydream（デイドリーム）</p>
+                                <p>Aimer（エメ）</p>
+                                <p>2016-09-21</p>                            </div>
+                        </li>
+                        <li>
+                            <img src="./image/album/daydream.jpg" alt="">
+                            <div class="name">
+                                <p>daydream（デイドリーム）</p>
+                                <p>Aimer（エメ）</p>
+                                <p>2016-09-21</p>                            </div>
+                        </li>
+                        <li>
+                            <img src="./image/album/daydream.jpg" alt="">
+                            <div class="name">
+                                <p>daydream（デイドリーム）</p>
+                                <p>Aimer（エメ）</p>
+                                <p>2016-09-21</p>                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer-box">
+            <div class="social-media">
+                <ul class="logos">
+                    <li>
+                        <a href="https://x.com/Aimer_and_staff" target="_blank">
+                            <img src="image/logo/logo-x.jpg" alt="x">
+                        </a>        
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/aimer_0907_official/" target="_blank">
+                            <img src="image/logo/logo-ins.jpg" alt="instagram">
+                        </a>        
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/aimerSMEJ" target="_blank">
+                            <img src="image/logo/logo-ytb.jpg" alt="youtube">
+                        </a>        
+                    </li>
+                    <li>
+                        <a href="https://page.line.me/aimer?openQrModal=true" target="_blank">
+                            <img src="image/logo/logo-line.jpg" alt="line">
+                        </a>        
+                    </li>
+                    <li>
+                        <a href="https://weibo.com/u/7704697388" target="_blank">
+                            <img src="image/logo/logo-weibo.jpg" alt="weibo">
+                        </a>        
+                    </li>        
+                </ul>
+            </div>
+            <div class="designer">
+                <div class="content">
+                    <p>Designed by @Kovin</p>
+                    <p>2024/10/16</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="sidebar">
+        <div data-name="live">Lives</div>
+        <div data-name="main">Music</div>
+        <div>Top</div>
+    </div>
+</body>
+<script src="js/wrapper.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/live.js"></script>
+<script src="js/album.js"></script>
+<script src="js/sidebar.js"></script>
+</html> 

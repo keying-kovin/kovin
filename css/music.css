@@ -1,0 +1,137 @@
+.mainContain .music {
+    width: 95%;
+    height: 500px;
+    margin: 30px auto 20px;
+}
+
+.mainContain .music h1 {
+    display: block;
+    width: 97%;
+    height: 50px;
+    margin: 40px auto 10px;
+    font: 700 35px 'yahei';
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.mainContain .music .music-box {
+    width: 97%;
+    height: 431px;
+    margin: 0 auto;
+}
+
+.mainContain .more {
+    float: right;
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+    font: 500 19px 'yahei';
+}
+
+.mainContain .more:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.mainContain .line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+}
+
+.mainContain .music .music-box .message {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.mainContain .music .music-box .message div {
+    position: absolute;
+    top: 5px;
+    height: 20px;
+    color: rgba(0, 0, 0, 0.67);
+    text-align: center;
+}
+
+.mainContain .music .music-box .message .name {
+    width: 100px;
+    left: 100px;
+}
+
+.mainContain .music .music-box .message .album {
+    width: 50px;
+    left: 800px;
+}
+
+.mainContain .music .music-box .message .time {
+    width: 50px;
+    right: 100px;
+}
+
+.mainContain .music .music-box .song-1 {
+    position: relative;
+    margin: 5px 0;
+    width: 100%;
+    height: 80px;
+    padding: 0 10px;
+    place-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+.mainContain .music .music-box .song-1 .player {
+    width: 70px;
+    height: 70px;
+}
+
+.mainContain .music .music-box .song-1:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.mainContain .music .music-box .song-1:hover {
+    background-color: rgba(0, 0, 0, 0.17);
+}
+
+.mainContain .music .music-box .song-1 img {
+    position: absolute;
+    top: 5px;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainContain .music .music-box .song-1 .song-name {
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+.mainContain .music .music-box .song-1>a {
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.mainContain .music .music-box .song-1>a:hover {
+    color: rgb(135, 152, 235);
+}
+
+.mainContain .music .music-box .song-1 .album {
+    position: absolute;
+    top: 40%;
+    left: 800px;
+}
+
+.mainContain .music .music-box .song-1 .time {
+    position: absolute;
+    right: 100px;
+    top: 40%;
+    color: rgba(0, 0, 0, 0.67);
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aimer_News</title>
+    <link rel="shortcut icon" href="./image/shortcut/shortCut.jpg">
+    <link rel="stylesheet" href="css/page_news.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            place-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="click-section">
+            <div id="drawerboxes">
+                <div class="drawerbox active">
+                    <button class="drawer-btn active" onclick="slideTo(1)">
+                        News 1
+                        <span class="drawer-head">1</span>
+                    </button>
+                </div>
+                <div class="drawerbox">
+                    <button class="drawer-btn" onclick="slideTo(2)">
+                        News 2
+                        <span class="drawer-head">2</span>
+                    </button>
+                </div>
+                <div class="drawerbox">
+                    <button class="drawer-btn" onclick="slideTo(3)">
+                        News 3
+                        <span class="drawer-head">3</span>
+                    </button>
+                </div>
+                <div class="drawerbox">
+                    <button class="drawer-btn" onclick="slideTo(4)">
+                        News 4
+                        <span class="drawer-head">4</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="slide-section">
+            <div id="slide-bar">
+                <div id="bar"></div>
+            </div>
+            <div id="card-section">
+                <div id="card1" class="card">
+                    <div class="card-small-title">Aimer</div>
+                    <div class="card-title">New</div>
+                    <div class="card-content">
+                        content
+                    </div>
+                    <div class="card-img">
+                        <img src="image/news_wrapper/test.jpg" alt="">
+                    </div>
+                </div>
+
+                <div id="card2" class="card">
+                    <div class="card-small-title">Aimer</div>
+                    <div class="card-title">New</div>
+                    <div class="card-content">
+                        content
+                    </div>
+                    <div class="card-img">
+                        <img src="image/news_wrapper/test.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div id="card3" class="card">
+                    <div class="card-small-title">Aimer</div>
+                    <div class="card-title">New</div>
+                    <div class="card-content">
+                        content
+                    </div>
+                    <div class="card-img">
+                        <img src="image/news_wrapper/test.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div id="card4" class="card">
+                    <div class="card-small-title">Aimer</div>
+                    <div class="card-title">New</div>
+                    <div class="card-content">
+                        content
+                    </div>
+                    <div class="card-img">
+                        <img src="image/news_wrapper/test.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/page_news.js"></script>
+</body>
+</html>

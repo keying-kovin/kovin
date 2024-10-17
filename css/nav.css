@@ -1,0 +1,163 @@
+.nav-box {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.nav-box .nav {
+    position: absolute;
+    right: 25%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-box .nav .btm-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* 按照导航按钮的个数来分配指示的宽度 */
+    width: calc((100% / 5) * 1);
+    height: 5px;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.nav-box .nav li {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav-box .nav li a {
+    color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    text-decoration: none;
+    font: 400 24px '微软雅黑';
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+}
+
+.nav-box .nav li a:hover {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.btm-box.checked {
+    left: calc(100% / 5 * 0);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-box .logo {
+    position: absolute;
+    left: 5%;
+    width: 10%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-box .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 滑动后显示的nav */
+
+.nav-scroll {
+    width: 95%;
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 999;
+    display: none;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.nav-scroll .nav {
+    position: absolute;
+    /* right: 25%; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-scroll .nav li {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav-scroll .nav li a {
+    color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    text-decoration: none;
+    font: 400 24px '微软雅黑';
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+}
+
+.nav-scroll .nav .btm-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* 按照导航按钮的个数来分配指示的宽度 */
+    width: calc((100% / 5) * 1);
+    height: 2px;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.nav-scroll .btm-box.checked {
+    left: calc(100% / 5 * 0);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-scroll .nav li a:hover {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.sidebar {
+    position: fixed;
+    right: 1%;
+    width: max(50px, 4%);
+    bottom: 40%;
+    display: grid;
+    height: 25%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
+        -1px -1px 2px white;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    opacity: 0;
+    transition: .3s;
+}
+
+.sidebar div {
+    width: 100%;
+    place-content: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.sidebar div:not(:last-child).active {
+    color: rgb(188, 135, 235);
+}
